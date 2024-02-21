@@ -36,7 +36,9 @@ JitIssue.UserArgumentException: Overflow(3) in Gamma function: x=0 on entry
    at JitIssue.Program.Main(String[] args) in C:\git\JitIssue\Program.cs:line 15
 ```
 
-Note that running a debug build does not throw an exception.
+Note:
+* Running a debug build does not throw an exception.
+* The issue does not occur if the target framework is changed to net6.0.
 
 ## Analysis
 
